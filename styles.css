@@ -1,7 +1,9 @@
 body{
     background-image: url("bg2.png");
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-    font-family: 'Ubuntu', sans-serif;
+    background-repeat: no-repeat;
+    font-family: 'Chelsea Market', system-ui;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .center {
@@ -16,7 +18,7 @@ body{
     margin: auto;
     color: white;
     width: 100%;
-    padding: 9% 0;
+    padding: 3% 0;
     /* height: 200px; */
     text-align: center;
   }
@@ -30,7 +32,7 @@ body{
   }
   .swap2{
     margin-top: 1%;
-    font-size: 3rem;
+    font-size: 5rem;
   }
   .swap-btn{
     color: white;
