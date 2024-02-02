@@ -1,36 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://unpkg.com/react@18.2/umd/react.production.min.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18.2/umd/react-dom.production.min.js" crossorigin></script>
-    <script type="module" src="https://unpkg.com/@dexhunterio/swaps@0.0.86/lib/umd/swaps.umd.js"></script>
-    <script src="https://kit.fontawesome.com/db08922239.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/png" href="/favicon.png">
-    <link rel="stylesheet" href="styles.css">
-    <title>ViperSwap</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://unpkg.com/react@18.2/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18.2/umd/react-dom.production.min.js" crossorigin></script>
+  <script type="module" src="https://unpkg.com/@dexhunterio/swaps@0.0.86/lib/umd/swaps.umd.js"></script>
+  <script src="https://kit.fontawesome.com/db08922239.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>ViperSwap</title>
 </head>
+
 <body>
-      <a class="home" href="index.html"><i class="fa-solid fa-house"></i></a>
-      <div class="middle">
-      <h1 class="swap2">ViperSwap</h1>
-    </div>
-    <div class="center2" id="dexhunter-root"></div>
-    <script type="module">
-        ReactDOM.render(
-            React.createElement(
-                dexhunterSwap, 
-                {"orderTypes":["SWAP","LIMIT"],"defaultToken":"caff93803e51c7b97bf79146790bfa3feb0d0b856ef16113b391b9975649504552","colors":{"background":"#0E0F12","containers":"#191B23","subText":"#88919E","mainText":"#FFFFFF","buttonText":"#FFFFFF","accent":"#007DFF"},"theme":"dark","width":450,"partnerCode":"testfdfd616464723171383939656574687570396d71756b72736c687536637039347472303372347374647877396e6777717063346e76676a757078777535346b77726733356d633879716867687872676d35643937307733637763647779397a686c3371726779343974da39a3ee5e6b4b0d3255bfef95601890afd80709","partnerName":"testfdfd"}
-            ),
-            document.getElementById('dexhunter-root')
-        );
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <img src="favicon.png" alt="Logo" width="40" height="34" class="d-inline-block align-text-top">
+        ViperSwap
+      </a>
+      <div class="d-flex">
+        <span>
+          <a class="navbar-brand" href="/">
+            <img class="social" src="house.svg" alt="Home">
+          </a>
+          <a class="navbar-brand" href="/exchange.html">
+            <img class="social" src="exchange.svg" alt="Exchange">
+          </a>
+          <a class="navbar-brand" href="https://vipercoin.io/">
+            <img class="social" src="globe-solid.svg" alt="Website">
+          </a>
+          <a class="navbar-brand" href="https://twitter.com/vipercoinada">
+            <img class="social" src="x-twitter.svg" alt="Twitter">
+          </a>
+          <a class="navbar-brand" href="https://discord.gg/zFENuxGh2U">
+            <img class="social" src="discord.svg" alt="Discord">
+          </a>
+          <a class="navbar-brand"
+            href="https://www.taptools.io/charts/token?pairID=0be55d262b29f564998ff81efe21bdc0022621c12f15af08d0f2ddb1.7ab955652d871bea27119656d3fd72bc5fdf037c3d1e79ddc5a7ee8bfa95c094">
+            <img class="social" src="taptools.svg" alt="TapTools">
+          </a>
+        </span>
+      </div>
+  </nav>
+  <!-- <a class="home" href="index.html"><i class="fa-solid fa-house"></i></a> -->
+  <div class="middle">
+    <h1 class="swap2">ViperSwap</h1>
+  </div>
+  <div class="center2" id="dexhunter-root"></div>
+  <script type="module">
+    ReactDOM.render(
+      React.createElement(
+        dexhunterSwap,
+        { "orderTypes": ["SWAP", "LIMIT"], "defaultToken": "caff93803e51c7b97bf79146790bfa3feb0d0b856ef16113b391b9975649504552", "colors": { "background": "#0E0F12", "containers": "#191B23", "subText": "#88919E", "mainText": "#FFFFFF", "buttonText": "#FFFFFF", "accent": "#007DFF" }, "theme": "dark", "width": 450, "partnerCode": "testfdfd616464723171383939656574687570396d71756b72736c687536637039347472303372347374647877396e6777717063346e76676a757078777535346b77726733356d633879716867687872676d35643937307733637763647779397a686c3371726779343974da39a3ee5e6b4b0d3255bfef95601890afd80709", "partnerName": "testfdfd" }
+      ),
+      document.getElementById('dexhunter-root')
+    );
+  </script>
+  <div class="middle">
+    <span>
+      <a class="" href="https://vipercoin.io/">
+        <img class="social3" src="website.png" alt="Website">
+      </a>
+      <a class="" href="https://twitter.com/vipercoinada">
+        <img class="social3" src="x-twitter.png" alt="Twitter">
+      </a>
+      <a class="" href="https://discord.gg/zFENuxGh2U">
+        <img class="social3" src="discord.png" alt="Discord">
+      </a>
+      <a class=""
+        href="https://www.taptools.io/charts/token?pairID=0be55d262b29f564998ff81efe21bdc0022621c12f15af08d0f2ddb1.7ab955652d871bea27119656d3fd72bc5fdf037c3d1e79ddc5a7ee8bfa95c094">
+        <img class="social3" src="taptools.png" alt="TapTools">
+      </a>
+    </span>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <footer class="footer2">
+      <h1><span><img src="favicon.png" alt="Logo" width="60" height="60" class="">VIPER</span></h1>
+      <p>© 2024 VIPER All Rights Reserved</p>
+    </footer>
+    
 </body>
+
 </html>
-        
