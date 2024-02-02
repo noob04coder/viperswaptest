@@ -1,4 +1,7 @@
-body{
+
+
+body,html{
+  /* filter: blur(2px); */
   background-image: url("bg.png") ;
   background-repeat: no-repeat;
   background-position: center center;
@@ -77,11 +80,16 @@ h1{
 }
 .footer{
   margin-left: 3%;
-  margin-top: 10%;
+  margin-top: 12%;
   position: absolute;
 }
 .footer2{
   margin-left: 3%;
   margin-top: 3%;
+  position: absolute;
+}
+.footer3{
+  margin-left: 3%;
+  margin-top: 10.5%;
   position: absolute;
 }
