@@ -1,10 +1,11 @@
 body{
-  background-image: url("bg2.png");
+  background-image: url("bg.png") ;
   background-repeat: no-repeat;
-  font-family: 'Chelsea Market', system-ui;
+  background-position: center center;
   background-size: cover;
-  background-repeat: no-repeat;
-  /* background: rgba(70, 70, 70, 0.267); */
+  background-attachment: fixed;
+  /* background-image: url("bg.png") ; */
+  font-family: 'Chelsea Market', system-ui;
 }
 p{
   color: white;
