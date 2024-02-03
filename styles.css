@@ -2,7 +2,7 @@
 
 body,html{
   /* filter: blur(2px); */
-  background-image: url("bg.png") ;
+  background-image: url("bg.jpg") ;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -10,6 +10,11 @@ body,html{
   /* background-image: url("bg.png") ; */
   font-family: 'Chelsea Market', system-ui;
 }
+
+a{
+  text-decoration: none;
+}
+
 p{
   color: white;
 }
@@ -79,17 +84,26 @@ h1{
   backdrop-filter: blur;
 }
 .footer{
-  margin-left: 3%;
+  margin-left: 1%;
   margin-top: 12%;
-  position: absolute;
+  /* position: absolute; */
+  text-align: center;
 }
 .footer2{
-  margin-left: 3%;
+  margin-left: 1%;
   margin-top: 3%;
-  position: absolute;
+  /* position: absolute; */
+  text-align: center;
 }
 .footer3{
-  margin-left: 3%;
+  margin-left: 1%;
   margin-top: 10.5%;
-  position: absolute;
+  /* position: absolute; */
+  text-align: center;
+}
+
+.navText{
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-size: 0.7rem;
+  display: block;
 }
