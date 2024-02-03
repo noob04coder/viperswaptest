@@ -30,8 +30,8 @@
           <a class="navbar-brand" href="/">
             <img class="social" src="house.svg" alt="Home">
           </a>
-          <a class="navbar-brand" href="/bridge.html">
-            <img class="social" src="exchange.svg" alt="Bridge">
+          <a class="navbar-brand" href="/swap.html">
+            <img class="social" src="swap.svg" alt="Swap">
           </a>
           <a class="navbar-brand newTab" target="_blank" href="https://vipercoin.io/">
             <img class="social" src="globe-solid.svg" alt="Website">
@@ -53,16 +53,10 @@
   <div class="middle">
     <h1 class="swap2">ViperSwap</h1>
   </div>
-  <div class="center2" id="dexhunter-root"></div>
-  <script type="module">
-    ReactDOM.render(
-        React.createElement(
-            dexhunterSwap, 
-            {"orderTypes":["SWAP","LIMIT"],"defaultToken":"caff93803e51c7b97bf79146790bfa3feb0d0b856ef16113b391b9975649504552","colors":{"background":"#8C342F","containers":"#8C342F","subText":"#D9E3F0","mainText":"#D9E3F0","buttonText":"#4C2144","accent":"#D9E3F0"},"theme":"light","width":450,"partnerCode":"viperswap616464723171396b6e64653372327776686b38666a616a63686c66756835326b326a6332646636356d39796d6e787634763835666b796d7a3338346c7330727778777a783734786834786335616466726d6870396c72356d377038677a6d6c6a71307333306e65da39a3ee5e6b4b0d3255bfef95601890afd80709","partnerName":"ViperSwap"}
-        ),
-        document.getElementById('dexhunter-root')
-    );
-</script>
+  <div class="center2">
+    <iframe id='iframe-widget' src='https://changenow.io/embeds/exchange-widget/v2/widget.html?FAQ=false&amount=0.1&amountFiat&backgroundColor=8c342f&darkMode=true&from=eth&horizontal=false&isFiat=false&lang=en-US&link_id=cfdceb98d62344&locales=true&logo=false&primaryColor=4c2144&to=ada&toTheMoon=false' style="height: 356px; width: 100%; border: none"></iframe>
+    <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
+</div>
   <!-- <div class="middle">
     <span>
       <a class="" href="https://vipercoin.io/">
@@ -83,7 +77,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
-    <div class="footer2">
+    <div class="footer3">
       <h1><span><img src="favicon.png" alt="Logo" width="60" height="60" class="">VIPER</span></h1>
       <p>© 2024 VIPER All Rights Reserved</p>
     </div>
@@ -91,5 +85,3 @@
 </body>
 
 </html>
-          
-      

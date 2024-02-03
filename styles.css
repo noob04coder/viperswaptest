@@ -2,7 +2,7 @@
 
 body,html{
   /* filter: blur(2px); */
-  background-image: url("bg.jpg") ;
+  background-image: url("gradient1.jpg") ;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -22,6 +22,11 @@ h1{
   color: white;
   font-family: 'Chelsea Market', system-ui;
 }
+
+/* #dexhunter-root{
+  border: solid white;
+} */
+
 .center {
   margin: auto;
   color: white;
@@ -107,3 +112,7 @@ h1{
   font-size: 0.7rem;
   /* display: block; */
 }
+.navHead{
+  font-size: 2rem;
+}
+
