@@ -1,5 +1,3 @@
-
-
 body,html{
   /* filter: blur(2px); */
   background-image: url("bg.jpg") ;
@@ -8,7 +6,7 @@ body,html{
   background-size: cover;
   background-attachment: fixed;
   /* background-image: url("bg.png") ; */
-  font-family: 'Chelsea Market', system-ui;
+  font-family: 'Syne', sans-serif;
 }
 
 a{
@@ -20,7 +18,7 @@ p{
 }
 h1{
   color: white;
-  font-family: 'Chelsea Market', system-ui;
+  font-family: 'Syne', sans-serif;
 }
 
 /* #dexhunter-root{
@@ -30,7 +28,7 @@ h1{
 .center {
   margin: auto;
   color: white;
-  width: 100%;
+  width: 80%;
   padding: 16% 0 1%;
   /* height: 200px; */
   text-align: center;
@@ -48,12 +46,12 @@ h1{
   color: white;
 }
 .swap{
-  font-size: 5rem;
+  font-size: 3rem;
   
 }
 .swap2{
   margin-top: 1%;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 .swap-btn{
   color: white;
@@ -72,14 +70,14 @@ h1{
 .social{
   color: white;
   /* background-color: white; */
-  width: 40px;
-  height: 30px;
+  width: 2.5rem;
+  height: 2.1rem;
 }
 
 .social2{
   color: white;
-  width: 20px;
-  height: 30px;
+  width: 2rem;
+  height: 2.5rem;
 }
 
 .social3{
@@ -113,6 +111,12 @@ h1{
   /* display: block; */
 }
 .navHead{
-  font-size: 1.5rem;
+  font-size: 2rem;
+}
+.swap-main{
+  border: solid #a3a3a3;
 }
 
+.nav-item{
+  text-align: right;
+}
