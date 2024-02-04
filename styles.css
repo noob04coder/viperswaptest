@@ -46,10 +46,12 @@ h1{
   color: white;
 }
 .swap{
+  font-family: 'Chelsea Market', system-ui;
   font-size: 3rem;
   
 }
 .swap2{
+  font-family: 'Chelsea Market', system-ui;
   margin-top: 1%;
   font-size: 3rem;
 }
@@ -111,6 +113,7 @@ h1{
   /* display: block; */
 }
 .navHead{
+  font-family: 'Chelsea Market', system-ui;
   font-size: 2rem;
 }
 .swap-main{
