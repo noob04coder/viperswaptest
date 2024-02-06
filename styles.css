@@ -38,7 +38,7 @@ h1{
   /* margin: auto; */
   color: white;
   width: 100%;
-  padding: 2% 0 0;
+  padding: 6% 0 0;
   /* height: 200px; */
   text-align: center;
 }
@@ -48,7 +48,7 @@ h1{
 }
 .swap{
   font-family: 'Chelsea Market', system-ui;
-  font-size: 3rem;
+  font-size: 4rem;
   
 }
 .swap2{
@@ -59,7 +59,7 @@ h1{
 .swap-btn{
   color: white;
   background-color: #B1232F;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .home,home:visited{
