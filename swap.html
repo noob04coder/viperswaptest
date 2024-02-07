@@ -26,8 +26,10 @@
         <img src="favicon.png" alt="Logo" class="navImg">
         <span class="navHead">ViperSwap Beta</span>
       </a>
-      <div class="d-flex">
-        <span>
+      </div>
+      </nav>
+      <!-- <div class="d-flex"> -->
+        <!-- <span>
           <a class="navbarIcons" href="/">
             <img class="social" src="house.svg" alt="Home">
           </a>
@@ -49,7 +51,7 @@
           </a>
         </span>
       </div>
-  </nav>
+  </nav> -->
   <!-- <a class="home" href="index.html"><i class="fa-solid fa-house"></i></a> -->
   <div class="middle">
     <!-- <h1 class="swap2">ViperSwap</h1> -->
@@ -59,7 +61,7 @@
     ReactDOM.render(
         React.createElement(
             dexhunterSwap, 
-            {"orderTypes":["SWAP","LIMIT"],"defaultToken":"caff93803e51c7b97bf79146790bfa3feb0d0b856ef16113b391b9975649504552","colors":{"background":"#212428","containers":"#212428","subText":"#88919E","mainText":"#FFFFFF","buttonText":"#FFFFFF","accent":"#B1232F"},"theme":"dark","width":430,"partnerCode":"vipercoin616464723171396b6e64653372327776686b38666a616a63686c66756835326b326a6332646636356d39796d6e787634763835666b796d7a3338346c7330727778777a783734786834786335616466726d6870396c72356d377038677a6d6c6a71307333306e65da39a3ee5e6b4b0d3255bfef95601890afd80709","partnerName":"ViperCoin"}
+            {"orderTypes":["SWAP","LIMIT","DCA"],"defaultToken":"caff93803e51c7b97bf79146790bfa3feb0d0b856ef16113b391b9975649504552","colors":{"background":"#212428","containers":"#212428","subText":"#88919E","mainText":"#FFFFFF","buttonText":"#FFFFFF","accent":"#B1232F"},"theme":"dark","width":430,"partnerCode":"vipercoin616464723171396b6e64653372327776686b38666a616a63686c66756835326b326a6332646636356d39796d6e787634763835666b796d7a3338346c7330727778777a783734786834786335616466726d6870396c72356d377038677a6d6c6a71307333306e65da39a3ee5e6b4b0d3255bfef95601890afd80709","partnerName":"ViperCoin"}
         ),
         document.getElementById('dexhunter-root')
     );
@@ -85,7 +87,23 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
     <div class="footer2">
-      <span><img src="favicon.png" alt="Logo" width="60" height="60" class=""></span>
+      <a class="navbarIcons" href="./bridge.html">
+        <img class="social" src="exchange.svg" alt="Bridge">
+      </a>
+      <a class="navbarIcons newTab" target="_blank" href="https://twitter.com/vipercoinada">
+        <img class="social" src="x-twitter.svg" alt="Twitter">
+      </a>
+      <a class="navbarIcons newTab" target="_blank" href="https://vipercoin.io/">
+        <img class="social webLogo" src="favicon.png" alt="Website">
+      </a>
+      <a class="navbarIcons newTab" target="_blank" href="http://discord.gg/n6DkQ9bWvf">
+        <img class="social" src="discord.svg" alt="Discord">
+      </a>
+      <a class="navbar-brand newTab" target="_blank"
+        href="https://www.taptools.io/charts/token?pairID=0be55d262b29f564998ff81efe21bdc0022621c12f15af08d0f2ddb1.7ab955652d871bea27119656d3fd72bc5fdf037c3d1e79ddc5a7ee8bfa95c094">
+        <img class="social" src="taptools.svg" alt="TapTools">
+      </a>
+      <!-- <span><img src="favicon.png" alt="Logo" width="60" height="60" class=""></span> -->
       <p>© 2024 VIPER All Rights Reserved</p>
     </div>
     <!-- <script>
