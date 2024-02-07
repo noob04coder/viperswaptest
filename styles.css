@@ -42,10 +42,10 @@ h1 {
 }
 
 .center2 {
-  /* margin: auto; */
+  margin: 8rem 0 0;
   color: white;
   width: 100%;
-  padding: 4% 0 0;
+  /* padding: 10rem 0 0; */
   /* height: 200px; */
   text-align: center;
 }
@@ -88,7 +88,7 @@ h1 {
 
 .swapTop {
   font-family: "Chelsea Market", system-ui;
-  font-size: 5rem;
+  font-size: 3.5rem;
   padding-bottom: 1%;
   /* text-decoration: underline; */
 }
@@ -164,23 +164,23 @@ home:visited {
   border: solid #a3a3a3;
 }
 
-.nav-item {
+/* .nav-item {
   margin: 0 3%;
-}
+} */
 
 .navImg {
-  width: 8%;
-  height: 5%;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 /* .navbarIcons{
   margin: 0 0.01;
 } */
-.navBtn {
+/* .navBtn {
   float: right;
-}
+} */
 
 .webLogo {
-  width: 5%;
-  height: 5%;
+  width: 4rem;
+  height: 4rem;
 }

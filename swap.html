@@ -20,21 +20,49 @@
 </head>
 
 <body>
-  <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+  <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
     <div class="container-fluid">
+      <span>
       <a class="navbar-brand" href="/">
         <img src="favicon.png" alt="Logo" class="navImg">
-        <span class="navHead">ViperSwap Beta</span>
+        <span class="navHead">ViperSwap</span>
         </a>
-        <div class="d-flex">
+      </span>
+        <!-- <button class="navbar-toggler navBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigate</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+        <!-- <div class="d-flex"> -->
+        <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo02"> -->
           <!-- <span> -->
-          <a class="navbar-brand" href="./swap.html">
+            <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+          <a class="nav-link" href="./swap.html">
             <img src="swap.svg" alt="Swap" class="social nav-item">Swap
             </a>
-            <a class="navbar-brand" href="./bridge.html">
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="./bridge.html">
               <img src="exchange.svg" alt="Bridge" class="social nav-item">Bridge
             </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="http://discord.gg/n6DkQ9bWvf">
+              <img src="question-solid.svg" alt="Help" class="social nav-item">Help
+            </a>
+          </li>
           <!-- </span> -->
+          </ul>
+        <!-- </div> -->
         </div>
       </div>
       </nav>
@@ -71,7 +99,7 @@
     ReactDOM.render(
         React.createElement(
             dexhunterSwap, 
-            {"orderTypes":["SWAP","LIMIT","DCA"],"defaultToken":"caff93803e51c7b97bf79146790bfa3feb0d0b856ef16113b391b9975649504552","colors":{"background":"#212428","containers":"#212428","subText":"#88919E","mainText":"#FFFFFF","buttonText":"#FFFFFF","accent":"#B1232F"},"theme":"dark","width":430,"partnerCode":"vipercoin616464723171396b6e64653372327776686b38666a616a63686c66756835326b326a6332646636356d39796d6e787634763835666b796d7a3338346c7330727778777a783734786834786335616466726d6870396c72356d377038677a6d6c6a71307333306e65da39a3ee5e6b4b0d3255bfef95601890afd80709","partnerName":"ViperCoin"}
+            {"orderTypes":["SWAP","LIMIT","DCA"],"defaultToken":"caff93803e51c7b97bf79146790bfa3feb0d0b856ef16113b391b9975649504552","colors":{"background":"#212428","containers":"#212428","subText":"#88919E","mainText":"#FFFFFF","buttonText":"#FFFFFF","accent":"#B1232F"},"theme":"dark","width":370,"partnerCode":"vipercoin616464723171396b6e64653372327776686b38666a616a63686c66756835326b326a6332646636356d39796d6e787634763835666b796d7a3338346c7330727778777a783734786834786335616466726d6870396c72356d377038677a6d6c6a71307333306e65da39a3ee5e6b4b0d3255bfef95601890afd80709","partnerName":"ViperCoin"}
         ),
         document.getElementById('dexhunter-root')
     );
