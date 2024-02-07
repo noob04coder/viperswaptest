@@ -36,7 +36,7 @@ h1 {
   margin: auto;
   color: white;
   width: 80%;
-  padding: 16% 0 1%;
+  padding: 13% 0 1%;
   /* height: 200px; */
   text-align: center;
 }
@@ -76,7 +76,7 @@ h1 {
 }
 
 .swap {
-  font-family: "Chelsea Market", system-ui;
+  font-family: 'Syne', sans-serif;
   font-size: 2rem;
 }
 
@@ -90,7 +90,7 @@ h1 {
   font-family: "Chelsea Market", system-ui;
   font-size: 5rem;
   padding-bottom: 1%;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .swap-btn {
@@ -130,7 +130,7 @@ home:visited {
 
 .footer {
   margin-left: 1%;
-  margin-top: 12%;
+  margin-top: 10%;
   /* position: absolute; */
   text-align: center;
 }
@@ -165,7 +165,7 @@ home:visited {
 }
 
 .nav-item {
-  text-align: center;
+  margin: 0 3%;
 }
 
 .navImg {
