@@ -89,7 +89,7 @@ h1 {
 
 .swapTop {
   font-family: 'Syne', sans-serif;
-  font-size: 3.5rem;
+  font-size: 4rem;
   padding-bottom: 1%;
   /* text-decoration: underline; */
 }
@@ -113,6 +113,7 @@ h1 {
   width: 3rem;
   height: 3rem;
   margin: 0 1%;
+  /* font-size: 1rem; */
 }
 
 .social2 {
@@ -129,13 +130,15 @@ h1 {
 }
 
 .footer {
+  font-family: 'Prompt', sans-serif;
   margin-left: 1%;
-  margin-top: 21rem;
+  margin-top: 18rem;
   /* position: absolute; */
   text-align: center;
 }
 
 .footer2 {
+  font-family: 'Prompt', sans-serif;
   margin-left: 1%;
   margin-top: 3%;
   /* position: absolute; */
@@ -143,6 +146,7 @@ h1 {
 }
 
 .footer3 {
+  font-family: 'Prompt', sans-serif;
   margin-left: 1%;
   margin-top: 8%;
   /* position: absolute; */
@@ -151,7 +155,7 @@ h1 {
 
 .navText {
   /* font-family: 'Times New Roman', Times, serif; */
-  font-size: 0.7rem;
+  font-size: 2rem;
   /* display: block; */
 }
 
