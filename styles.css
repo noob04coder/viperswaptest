@@ -52,13 +52,22 @@ h1{
   /* text-align: center; */
 }
 
-.center2 {
+.center4 {
   /* margin: auto; */
   color: white;
   width: 100%;
   padding: 2% 0 0;
   /* height: 200px; */
   text-align: center;
+}
+
+.center3 {
+  margin-left: 50%;
+  /* color: white; */
+  width: 100%;
+  /* padding: 4% 0 0; */
+  /* height: 200px; */
+  /* text-align: center; */
 }
 
 .middle{
@@ -142,7 +151,7 @@ h1{
 }
 
 .nav-item{
-  text-align: right;
+  text-align: center;
 }
 
 .navImg{
@@ -152,3 +161,6 @@ h1{
 /* .navbarIcons{
   margin: 0 0.01;
 } */
+.navBtn{
+  float: right;
+}
