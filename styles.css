@@ -53,7 +53,7 @@ h1 {
 .center3 {
   margin-left: 2%;
   /* color: white; */
-  margin-top: 8rem;
+  margin-top: 6rem;
   width: 100%;
   /* padding: 4% 0 0; */
   /* height: 200px; */
@@ -64,7 +64,7 @@ h1 {
   /* margin: auto; */
   color: white;
   width: 100%;
-  margin: 0.5rem 0 0;
+  margin: 0.3rem 0 0;
   /* height: 200px; */
   text-align: center;
   display: inline-block;
@@ -155,7 +155,7 @@ h1 {
 
 .navText {
   /* font-family: 'Times New Roman', Times, serif; */
-  font-size: 2rem;
+  font-size: 1.5rem;
   /* display: block; */
 }
 
