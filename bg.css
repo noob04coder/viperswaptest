@@ -1,0 +1,12 @@
+body,
+html {
+  /* filter: blur(2px); */
+  background-image: url("viper-bg.png"),url("bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-image: url("bg.png") ; */
+  /*font-family: 'Syne', sans-serif;*/
+  font-family: 'Syne', sans-serif;
+}

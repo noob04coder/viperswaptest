@@ -1,7 +1,7 @@
 body,
 html {
   /* filter: blur(2px); */
-  background-image: url("viper-bg.png"),url("bg.jpg");
+  background-image: url("bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
