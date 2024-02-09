@@ -64,7 +64,7 @@ h1 {
   margin: auto;
   color: white;
   width: 80%;
-  padding: 0.3rem 0 0;
+  padding: 3rem 0 0;
   /* height: 200px; */
   text-align: center;
   /* display: inline-block; */
@@ -73,7 +73,7 @@ h1 {
 .center5 {
   /* margin-left: 2%; */
   /* color: white; */
-  margin-top: 4rem;
+  margin-top: 55px;
   width: 100%;
   /* padding: 4% 0 0; */
   /* height: 200px; */
@@ -168,13 +168,13 @@ h1 {
 
 .navText {
   /* font-family: 'Times New Roman', Times, serif; */
-  font-size: 1.2rem;
+  font-size: 1rem;
   /* display: block; */
 }
 
 .navHead {
   font-family: 'Syne', sans-serif;
-  font-size: 1.65rem;
+  font-size: 1.4rem;
 }
 
 .swap-main {
@@ -200,6 +200,10 @@ color: white;
 /* .navBtn {
   float: right;
 } */
+.navDiv{
+  display: block;
+  height: 6%;
+}
 
 .webLogo {
   width: 4rem;
