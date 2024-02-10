@@ -71,15 +71,12 @@
   <div class="center5">
     <!-- <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#ffffff" lcw-marquee-1="coins" lcw-marquee-2="none" lcw-marquee-items="10" ></div> -->
     <!-- <h1 class="swap2">ViperSwap</h1> -->
-    <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,1027,2010,5805,3794,22861,7226,25264" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
+  <div id="coinmarketcap-widget-marquee" coins="1,1027,2010,5805,3794,22861,7226,25264" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
   </div>
   <div class="center4">
     <iframe id='iframe-widget' src='https://changenow.io/embeds/exchange-widget/v2/widget.html?FAQ=false&amount=0.1&amountFiat&backgroundColor=212428&darkMode=true&from=eth&horizontal=false&isFiat=false&lang=en-US&link_id=cfdceb98d62344&locales=true&logo=false&primaryColor=B1232F&to=ada&toTheMoon=false' style="height: 400px; width: 100%; border: none"></iframe>
     <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
 </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
     <div class="footer3">
       <a class="navbarIcons newTab" target="_blank" href="https://vipercoin.io/">
         <img class="social" src="globe-solid.svg" alt="Website">
@@ -97,15 +94,25 @@
         href="https://www.taptools.io/charts/token?pairID=0be55d262b29f564998ff81efe21bdc0022621c12f15af08d0f2ddb1.7ab955652d871bea27119656d3fd72bc5fdf037c3d1e79ddc5a7ee8bfa95c094">
         <img class="social" src="taptools.svg" alt="TapTools">
       </a>
+      
       <!-- <span><img src="favicon.png" alt="Logo" width="60" height="60" class=""></span> -->
       <p>© 2024 VIPER All Rights Reserved</p>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous">
+  </script>
     <style>
         .coin-marquee-wrapper{
     background-color: #212428;
     font-family: 'Prompt', sans-serif;
   }
       </style>
+      <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script>
+      <script>window.addEventListener('load', function () {
+        marqDur=parseFloat(document.getElementsByClassName("coin-marquee-container__inner")[0].style.animationDuration)*2.5;
+document.getElementsByClassName("coin-marquee-container__inner")[0].style.animationDuration=(marqDur+"s");
+      })</script>
 </body>
 
 <!-- <div class="tradingview-widget-container center5">
@@ -200,4 +207,5 @@
       </a>
     </span>
   </div> -->
+  <!-- <script src="delayCode.js" defer></script> -->
 </html>
