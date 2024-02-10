@@ -71,8 +71,13 @@
   <div class="center5">
     <!-- <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#ffffff" lcw-marquee-1="coins" lcw-marquee-2="none" lcw-marquee-items="10" ></div> -->
     <!-- <h1 class="swap2">ViperSwap</h1> -->
-  <div id="coinmarketcap-widget-marquee" coins="1,1027,2010,5805,3794,22861,7226,25264" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
+  <div id="coinmarketcap-widget-marquee" coins="1,1027,2010,5805,5426,52,1762,3794,22861,7226,25264" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
   </div>
+  <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script>
+  <script>window.addEventListener('load', function () {
+    marqDur=parseFloat(document.getElementsByClassName("coin-marquee-container__inner")[0].style.animationDuration)*2.5;
+document.getElementsByClassName("coin-marquee-container__inner")[0].style.animationDuration=(marqDur+"s");
+  })</script>
   <div class="center4">
     <iframe id='iframe-widget' src='https://changenow.io/embeds/exchange-widget/v2/widget.html?FAQ=false&amount=0.1&amountFiat&backgroundColor=212428&darkMode=true&from=eth&horizontal=false&isFiat=false&lang=en-US&link_id=cfdceb98d62344&locales=true&logo=false&primaryColor=B1232F&to=ada&toTheMoon=false' style="height: 400px; width: 100%; border: none"></iframe>
     <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
@@ -108,11 +113,6 @@
     font-family: 'Prompt', sans-serif;
   }
       </style>
-      <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script>
-      <script>window.addEventListener('load', function () {
-        marqDur=parseFloat(document.getElementsByClassName("coin-marquee-container__inner")[0].style.animationDuration)*2.5;
-document.getElementsByClassName("coin-marquee-container__inner")[0].style.animationDuration=(marqDur+"s");
-      })</script>
 </body>
 
 <!-- <div class="tradingview-widget-container center5">
