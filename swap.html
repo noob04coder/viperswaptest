@@ -5,10 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!-- <link href="https://fonts.googleapis.com/css2?family=Syne&display=swap" rel="stylesheet"> -->
-<!-- <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet" /> -->
-<link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,300&family=Syne:wght@800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Syne&display=swap" rel="stylesheet"> -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet" /> -->
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,300&family=Syne:wght@800&display=swap"
+    rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="https://unpkg.com/react@18.2/umd/react.production.min.js" crossorigin></script>
@@ -24,56 +25,57 @@
   <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
     <div class="container-fluid">
       <span>
-      <a class="navbar-brand" href="/">
-        <img src="favicon.png" alt="Logo" class="navImg">
-        <span class="navHead">VIPERSWAP</span>
+        <a class="navbar-brand" href="/">
+          <img src="favicon.png" alt="Logo" class="navImg">
+          <span class="navHead">VIPERSWAP</span>
         </a>
       </span>
-        <!-- <button class="navbar-toggler navBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- <button class="navbar-toggler navBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button> -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigate</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigate</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
         <!-- <div class="d-flex"> -->
         <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo02"> -->
-          <!-- <span> -->
-            <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
-              <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="navbar-brand">
-          <a class="navLink" href="./swap.html">
-            <span class="navText"><img src="swap.svg" alt="Swap" class="social nav-item">Swap
-            </span></a>
+        <!-- <span> -->
+        <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="navbar-brand">
+              <a class="navLink" href="./swap.html">
+                <span class="navText"><img src="swap.svg" alt="Swap" class="social nav-item">Swap
+                </span></a>
             </li>
             <li class="navbar-brand">
-            <a class="navLink" href="./bridge.html">
-              <span class="navText"><img src="exchange.svg" alt="Bridge" class="social nav-item">Bridge
-            </span></a>
-          </li>
-          <li class="navbar-brand">
-            <a class="navLink" target="_blank" href="https://viper.staking.zip/">
-              <span class="navText"><img src="coins-solid.svg" alt="earn" class="social nav-item">Earn
-            </span></a>
-          </li>
-          <li class="navbar-brand">
-            <a class="navLink" target="_blank" href="http://discord.gg/n6DkQ9bWvf">
-              <span class="navText"><img src="question-solid.svg" alt="Help" class="social nav-item">Help
-            </span></a>
-          </li>
-          <!-- </span> -->
+              <a class="navLink" href="./bridge.html">
+                <span class="navText"><img src="exchange.svg" alt="Bridge" class="social nav-item">Bridge
+                </span></a>
+            </li>
+            <li class="navbar-brand">
+              <a class="navLink" target="_blank" href="https://viper.staking.zip/">
+                <span class="navText"><img src="coins-solid.svg" alt="earn" class="social nav-item">Earn
+                </span></a>
+            </li>
+            <li class="navbar-brand">
+              <a class="navLink" target="_blank" href="http://discord.gg/n6DkQ9bWvf">
+                <span class="navText"><img src="question-solid.svg" alt="Help" class="social nav-item">Help
+                </span></a>
+            </li>
+            <!-- </span> -->
           </ul>
-        <!-- </div> -->
+          <!-- </div> -->
         </div>
       </div>
-      </nav>
-      <!-- <div class="d-flex"> -->
-        <!-- <span>
+  </nav>
+  <!-- <div class="d-flex"> -->
+  <!-- <span>
           <a class="navbarIcons" href="/">
             <img class="social" src="house.svg" alt="Home">
           </a>
@@ -96,7 +98,9 @@
         </span>
       </div>
   </nav> -->
-  <div class="center5" id="coinmarketcap-widget-marquee" coins="17430,12787,2010,25264,16755,13769,18774,26880,27463,17160,22989,23047,23115,21639" currency="USD" theme="dark" transparent="true" show-symbol-logo="true"></div>
+  <div class="center5" id="coinmarketcap-widget-marquee"
+    coins="17430,12787,2010,25264,16755,13769,18774,26880,27463,17160,22989,23047,23115,21639" currency="USD"
+    theme="dark" transparent="true" show-symbol-logo="true"></div>
   <!-- <a class="home" href="index.html"><i class="fa-solid fa-house"></i></a> -->
   <script type="text/javascript" src="test.js" defer></script>
   <!-- <script>window.addEventListener('load', function () {
@@ -105,24 +109,24 @@
 document.getElementsByClassName("coin-marquee-container__inner")[0].style.animationDuration=(marqDur+"s");
 },1000)
   })</script> -->
-      <!-- <h1 class="swap2">ViperSwap</h1> -->
+  <!-- <h1 class="swap2">ViperSwap</h1> -->
 
-      <div class="middle2">
-        <button class="btn btn-danger swap-btn2" onclick="window.location.href='./jup.html'">
-          <img class="social2" src="swap.svg" alt="SwapImg">      
-          <span>SWITCH TO SOLANA</span>
-        </button>
-      </div>
+  <div class="middle2">
+    <button class="btn btn-danger swap-btn2" onclick="window.location.href='./jup.html'">
+      <img class="social2" src="swap.svg" alt="SwapImg">
+      <span>SWITCH TO SOLANA</span>
+    </button>
+  </div>
   <div class="center2" id="dexhunter-root"></div>
   <script type="module">
     ReactDOM.render(
-        React.createElement(
-            dexhunterSwap, 
-            {"orderTypes":["SWAP","LIMIT","DCA"],"defaultToken":"caff93803e51c7b97bf79146790bfa3feb0d0b856ef16113b391b9975649504552","colors":{"background":"#212428","containers":"#212428","subText":"#88919E","mainText":"#FFFFFF","buttonText":"#FFFFFF","accent":"#B1232F"},"theme":"dark","width":370,"partnerCode":"vipercoin616464723171396b6e64653372327776686b38666a616a63686c66756835326b326a6332646636356d39796d6e787634763835666b796d7a3338346c7330727778777a783734786834786335616466726d6870396c72356d377038677a6d6c6a71307333306e65da39a3ee5e6b4b0d3255bfef95601890afd80709","partnerName":"ViperCoin"}
-        ),
-        document.getElementById('dexhunter-root')
+      React.createElement(
+        dexhunterSwap,
+        { "orderTypes": ["SWAP", "LIMIT", "DCA"], "defaultToken": "caff93803e51c7b97bf79146790bfa3feb0d0b856ef16113b391b9975649504552", "colors": { "background": "#212428", "containers": "#212428", "subText": "#88919E", "mainText": "#FFFFFF", "buttonText": "#FFFFFF", "accent": "#B1232F" }, "theme": "dark", "width": 370, "partnerCode": "vipercoin616464723171396b6e64653372327776686b38666a616a63686c66756835326b326a6332646636356d39796d6e787634763835666b796d7a3338346c7330727778777a783734786834786335616466726d6870396c72356d377038677a6d6c6a71307333306e65da39a3ee5e6b4b0d3255bfef95601890afd80709", "partnerName": "ViperCoin" }
+      ),
+      document.getElementById('dexhunter-root')
     );
-</script>
+  </script>
 
   <!-- <div class="middle">
     <span>
@@ -144,37 +148,37 @@ document.getElementsByClassName("coin-marquee-container__inner")[0].style.animat
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
-    <div class="footer2">
-      <a class="navbarIcons newTab" target="_blank" href="https://vipercoin.io/">
-        <img class="social" src="globe-solid.svg" alt="Website">
-      </a>
-      <a class="navbarIcons newTab" target="_blank" href="https://twitter.com/vipercoinada">
-        <img class="social" src="x-twitter.svg" alt="Twitter">
-      </a>
-      <a class="navbarIcons newTab" href="">
-        <img class="social webLogo" src="favicon.png" alt="Website">
-      </a>
-      <a class="navbarIcons newTab" target="_blank" href="http://discord.gg/n6DkQ9bWvf">
-        <img class="social" src="discord.svg" alt="Discord">
-      </a>
-      <a class="navbar-brand newTab" target="_blank"
-        href="https://www.taptools.io/charts/token?pairID=0be55d262b29f564998ff81efe21bdc0022621c12f15af08d0f2ddb1.7ab955652d871bea27119656d3fd72bc5fdf037c3d1e79ddc5a7ee8bfa95c094">
-        <img class="social" src="taptools.svg" alt="TapTools">
-      </a>
-      <!-- <span><img src="favicon.png" alt="Logo" width="60" height="60" class=""></span> -->
-      <p>© 2024 VIPER All Rights Reserved</p>
-    </div>
-    <!-- <script>
+  <div class="footer2">
+    <a class="navbarIcons newTab" target="_blank" href="https://vipercoin.io/">
+      <img class="social" src="globe-solid.svg" alt="Website">
+    </a>
+    <a class="navbarIcons newTab" target="_blank" href="https://twitter.com/vipercoinada">
+      <img class="social" src="x-twitter.svg" alt="Twitter">
+    </a>
+    <a class="navbarIcons newTab" href="/">
+      <img class="social webLogo" src="favicon.png" alt="Website">
+    </a>
+    <a class="navbarIcons newTab" target="_blank" href="http://discord.gg/n6DkQ9bWvf">
+      <img class="social" src="discord.svg" alt="Discord">
+    </a>
+    <a class="navbar-brand newTab" target="_blank"
+      href="https://www.taptools.io/charts/token?pairID=0be55d262b29f564998ff81efe21bdc0022621c12f15af08d0f2ddb1.7ab955652d871bea27119656d3fd72bc5fdf037c3d1e79ddc5a7ee8bfa95c094">
+      <img class="social" src="taptools.svg" alt="TapTools">
+    </a>
+    <!-- <span><img src="favicon.png" alt="Logo" width="60" height="60" class=""></span> -->
+    <p>© 2024 VIPER All Rights Reserved</p>
+  </div>
+  <!-- <script>
     document.addEventListener("DOMContentLoaded", function() {
       document.getElementById("swap-main").style.border = "solid white";
       document.getElementById("swap-main").style.borderRadius = "25px";
     });
   </script> -->
   <style>
-  .coin-marquee-wrapper{
-    background-color: #212428;
-    font-family: 'Prompt', sans-serif;
-  }
+    .coin-marquee-wrapper {
+      background-color: #212428;
+      font-family: 'Prompt', sans-serif;
+    }
   </style>
 </body>
 
