@@ -82,6 +82,17 @@ h1 {
   background-color: #212428;
 }
 
+.center6 {
+  margin: auto;
+  color: white;
+  width: 40%;
+  padding: 4rem 0 0;
+  /* height: 200px; */
+  text-align: center;
+  /* background-color: #212428; */
+  /* display: inline-block; */
+}
+
 .middle {
   text-align: center;
   color: white;
