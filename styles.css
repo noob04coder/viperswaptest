@@ -85,7 +85,7 @@ h1 {
 .center6 {
   margin: auto;
   color: white;
-  width: 22rem;
+  width: 23rem;
   padding: 0.8rem 0 0;
   text-align: center;
   /* background-color: #212428; */
@@ -114,7 +114,10 @@ h1 {
   text-align: center;
   color: white;
   padding-top: 1.5rem;
+  display: flexbox;
   /* margin: 50%; */
+  /* margin-left: 17.7rem ; */
+  align-items: center;
 }
 
 .swap {
