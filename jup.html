@@ -2,74 +2,79 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!-- <link href="https://fonts.googleapis.com/css2?family=Syne&display=swap" rel="stylesheet"> -->
-<!-- <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet" /> -->
-<link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,300&family=Syne:wght@800&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <script src="https://unpkg.com/react@18.2/umd/react.production.min.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@18.2/umd/react-dom.production.min.js" crossorigin></script>
-  <script type="module" src="https://unpkg.com/@dexhunterio/swaps@0.0.86/lib/umd/swaps.umd.js"></script>
-  <script src='https://terminal.jup.ag/main-v2.js'></script>
-  <script src="https://kit.fontawesome.com/db08922239.js" crossorigin="anonymous"></script>
-  <link rel="icon" type="image/png" href="/favicon.png">
-  <link rel="stylesheet" href="styles.css">
-  <title>ViperSwap︱Trade Crypto</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Syne&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet" /> -->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,300&family=Syne:wght@800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://unpkg.com/react@18.2/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18.2/umd/react-dom.production.min.js" crossorigin></script>
+    <script type="module" src="https://unpkg.com/@dexhunterio/swaps@0.0.86/lib/umd/swaps.umd.js"></script>
+    <script src='https://terminal.jup.ag/main-v2.js'></script>
+    <script src="https://kit.fontawesome.com/db08922239.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>ViperSwap︱Trade Crypto</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
-    <div class="container-fluid">
-      <span>
-      <a class="navbar-brand" href="/">
-        <img src="favicon.png" alt="Logo" class="navImg">
-        <span class="navHead">VIPERSWAP</span>
-        </a>
-      </span>
-        <!-- <button class="navbar-toggler navBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <span>
+                <a class="navbar-brand" href="/">
+                    <img src="favicon.png" alt="Logo" class="navImg">
+                    <span class="navHead">VIPERSWAP</span>
+                </a>
+            </span>
+            <!-- <button class="navbar-toggler navBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button> -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigate</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-        <!-- <div class="d-flex"> -->
-        <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo02"> -->
-          <!-- <span> -->
-            <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
-              <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="navbar-brand">
-          <a class="navLink" href="./swap.html">
-            <span class="navText"><img src="swap.svg" alt="Swap" class="social nav-item">Swap
-            </span></a>
-            </li>
-            <li class="navbar-brand">
-            <a class="navLink" href="./bridge.html">
-              <span class="navText"><img src="exchange.svg" alt="Bridge" class="social nav-item">Bridge
-            </span></a>
-          </li>
-          <li class="navbar-brand">
-            <a class="navLink" target="_blank" href="http://discord.gg/n6DkQ9bWvf">
-              <span class="navText"><img src="question-solid.svg" alt="Help" class="social nav-item">Help
-            </span></a>
-          </li>
-          <!-- </span> -->
-          </ul>
-        <!-- </div> -->
-        </div>
-      </div>
-      </nav>
-      <!-- <div class="d-flex"> -->
-        <!-- <span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigate</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <!-- <div class="d-flex"> -->
+                <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo02"> -->
+                <!-- <span> -->
+                <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="navbar-brand">
+                            <a class="navLink" href="./swap.html">
+                                <span class="navText"><img src="swap.svg" alt="Swap" class="social nav-item">Swap
+                                </span></a>
+                        </li>
+                        <li class="navbar-brand">
+                            <a class="navLink" href="./bridge.html">
+                                <span class="navText"><img src="exchange.svg" alt="Bridge"
+                                        class="social nav-item">Bridge
+                                </span></a>
+                        </li>
+                        <li class="navbar-brand">
+                            <a class="navLink" target="_blank" href="http://discord.gg/n6DkQ9bWvf">
+                                <span class="navText"><img src="question-solid.svg" alt="Help"
+                                        class="social nav-item">Help
+                                </span></a>
+                        </li>
+                        <!-- </span> -->
+                    </ul>
+                    <!-- </div> -->
+                </div>
+            </div>
+    </nav>
+    <!-- <div class="d-flex"> -->
+    <!-- <span>
           <a class="navbarIcons" href="/">
             <img class="social" src="house.svg" alt="Home">
           </a>
@@ -92,25 +97,27 @@
         </span>
       </div>
   </nav> -->
-  <script type="text/javascript" src="./test.js"></script><div class="center5" id="coinmarketcap-widget-marquee" coins="5426,11461,29210,23095,28177,28541" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
-  <!-- <script>window.addEventListener('load', function () {
+    <script type="text/javascript" src="./test.js"></script>
+    <div class="center5" id="coinmarketcap-widget-marquee" coins="5426,11461,29210,23095,28177,28541" currency="USD"
+        theme="dark" transparent="false" show-symbol-logo="true"></div>
+    <!-- <script>window.addEventListener('load', function () {
     setTimeout(function(){
     marqDur=parseFloat(document.getElementsByClassName("coin-marquee-container__inner")[0].style.animationDuration)*2.5;
 document.getElementsByClassName("coin-marquee-container__inner")[0].style.animationDuration=(marqDur+"s");
 },1000)
   })</script> -->
-<!-- Attach the loading script in your <head /> -->
-<!-- Prepare a div in your <body> for Terminal to render -->
+    <!-- Attach the loading script in your <head /> -->
+    <!-- Prepare a div in your <body> for Terminal to render -->
     <div class="middle2">
         <button class="btn btn-danger swap-btn2" onclick="window.location.href='./swap.html'">
-          <img class="social2" src="swap.svg" alt="SwapImg">      
-          <span>SWITCH TO CARDANO</span>
+            <img class="social2" src="swap.svg" alt="SwapImg">
+            <span>SWITCH TO CARDANO</span>
         </button>
-      </div>
-<div class="center6">
-<div class="center7" id="integrated-terminal"></div>
-</div>
-<!-- <div class="middle">
+    </div>
+    <div class="center6">
+        <div class="center7" id="integrated-terminal"></div>
+    </div>
+    <!-- <div class="middle">
     <span>
       <a class="" href="https://vipercoin.io/">
         <img class="social3" src="website.png" alt="Website">
@@ -127,63 +134,72 @@ document.getElementsByClassName("coin-marquee-container__inner")[0].style.animat
       </a>
     </span>
   </div> -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <div class="footer2">
-      <a class="navbarIcons newTab" target="_blank" href="https://vipercoin.io/">
-        <img class="social" src="globe-solid.svg" alt="Website">
-      </a>
-      <a class="navbarIcons newTab" target="_blank" href="https://twitter.com/vipercoinada">
-        <img class="social" src="x-twitter.svg" alt="Twitter">
-      </a>
-      <a class="navbarIcons newTab" href="">
-        <img class="social webLogo" src="favicon.png" alt="Website">
-      </a>
-      <a class="navbarIcons newTab" target="_blank" href="http://discord.gg/n6DkQ9bWvf">
-        <img class="social" src="discord.svg" alt="Discord">
-      </a>
-      <a class="navbar-brand newTab" target="_blank"
-        href="https://www.taptools.io/charts/token?pairID=0be55d262b29f564998ff81efe21bdc0022621c12f15af08d0f2ddb1.7ab955652d871bea27119656d3fd72bc5fdf037c3d1e79ddc5a7ee8bfa95c094">
-        <img class="social" src="taptools.svg" alt="TapTools">
-      </a>
-      <!-- <span><img src="favicon.png" alt="Logo" width="60" height="60" class=""></span> -->
-      <p>© 2024 VIPER All Rights Reserved</p>
+        <a class="navbarIcons newTab" target="_blank" href="https://vipercoin.io/">
+            <img class="social" src="globe-solid.svg" alt="Website">
+        </a>
+        <a class="navbarIcons newTab" target="_blank" href="https://twitter.com/vipercoinada">
+            <img class="social" src="x-twitter.svg" alt="Twitter">
+        </a>
+        <a class="navbarIcons newTab" href="">
+            <img class="social webLogo" src="favicon.png" alt="Website">
+        </a>
+        <a class="navbarIcons newTab" target="_blank" href="http://discord.gg/n6DkQ9bWvf">
+            <img class="social" src="discord.svg" alt="Discord">
+        </a>
+        <a class="navbar-brand newTab" target="_blank"
+            href="https://www.taptools.io/charts/token?pairID=0be55d262b29f564998ff81efe21bdc0022621c12f15af08d0f2ddb1.7ab955652d871bea27119656d3fd72bc5fdf037c3d1e79ddc5a7ee8bfa95c094">
+            <img class="social" src="taptools.svg" alt="TapTools">
+        </a>
+        <!-- <span><img src="favicon.png" alt="Logo" width="60" height="60" class=""></span> -->
+        <p>© 2024 VIPER All Rights Reserved</p>
     </div>
     <script>window.Jupiter.init({
-        displayMode: "integrated",
-        integratedTargetId: "integrated-terminal",
-        endpoint: "https://mainnet.helius-rpc.com/?api-key=611959da-f8f0-41d1-a13c-5cb1400c3ab2",
-      });</script>
+            displayMode: "integrated",
+            integratedTargetId: "integrated-terminal",
+            endpoint: "https://mainnet.helius-rpc.com/?api-key=611959da-f8f0-41d1-a13c-5cb1400c3ab2",
+        });</script>
     <!-- <script>
     document.addEventListener("DOMContentLoaded", function() {
       document.getElementById("swap-main").style.border = "solid white";
       document.getElementById("swap-main").style.borderRadius = "25px";
     });
   </script> -->
-  <style>
-  .coin-marquee-wrapper{
-    background-color: #212428;
-    font-family: 'Prompt', sans-serif;
-  }
-  .py-5 {
-    padding-top: 1.5rem!important;
-    padding-bottom: 1.5rem!important;
-}
-.p-5{
-    padding: 1.5rem!important;
-}
-#jupiter-terminal .bg-\[\#191B1F\] {
-    background-color: #b1232f;
-}
-#jupiter-terminal .bg-\[\#212128\]{
-    background-color: #212428;
-    border: rgb(61, 61, 61) solid 2px;
-}
-#jupiter-terminal .text-white\/30 {
-    color: hsl(0, 0%, 100%);
-}
-  </style>
+    <style>
+        .coin-marquee-wrapper {
+            background-color: #212428;
+            font-family: 'Prompt', sans-serif;
+        }
+
+        .py-5 {
+            padding-top: 1.5rem !important;
+            padding-bottom: 1.5rem !important;
+        }
+
+        .p-5 {
+            padding: 1.5rem !important;
+        }
+
+        #jupiter-terminal .bg-\[\#191B1F\] {
+            background-color: #b1232f;
+        }
+
+        #jupiter-terminal .bg-\[\#212128\] {
+            background-color: #212428;
+            border: rgb(61, 61, 61) solid 2px;
+        }
+
+        #jupiter-terminal .text-white\/30 {
+            color: hsl(0, 0%, 100%);
+        }
+
+        .pb-4 {
+            padding-bottom: 0.5rem !important;
+        }
+    </style>
 </body>
 
 </htmnavbarIcons
