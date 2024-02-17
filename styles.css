@@ -85,7 +85,7 @@ h1 {
 .center6 {
   margin: auto;
   color: white;
-  width: 40%;
+  width: 25rem;
   padding: 2rem 0 2rem;
   text-align: center;
   /* background-color: #212428; */
@@ -95,7 +95,7 @@ h1 {
 .center7 {
   margin: auto;
   color: white;
-  width: 60%;
+  width: 100%;
   padding: 1rem;
   /* height: 200px; */
   text-align: center;
