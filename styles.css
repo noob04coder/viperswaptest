@@ -86,7 +86,7 @@ h1 {
   margin: auto;
   color: white;
   width: 25rem;
-  padding: 2rem 0 2rem;
+  padding: 4rem 0 0;
   text-align: center;
   /* background-color: #212428; */
   /* display: inline-block; */
@@ -99,7 +99,7 @@ h1 {
   padding: 1rem;
   /* height: 200px; */
   text-align: center;
-  background-color: #1b1b1b21;
+  background-color: #212428;
   /* display: inline-block; */
   border-radius: 3%;
 }
@@ -107,6 +107,13 @@ h1 {
 .middle {
   text-align: center;
   color: white;
+  /* margin: 50%; */
+}
+
+.middle2 {
+  text-align: center;
+  color: white;
+  padding-top: 2rem;
   /* margin: 50%; */
 }
 
@@ -133,6 +140,12 @@ h1 {
   color: white;
   background-color: #b1232f;
   font-size: 1.5rem;
+}
+
+.swap-btn2 {
+  color: white;
+  background-color: #b1232f;
+  font-size: 0.8rem;
 }
 
 .home,.home:visited {
